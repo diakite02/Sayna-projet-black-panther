@@ -1,0 +1,463 @@
+
+@font-face {
+    font-family: panthera;
+    src: url(../Font/PantheraRegular-MVZ9J.ttf);
+
+}
+@font-face {
+    font-family: beyno;
+    src: url(../Font/BEYNO/BEYNO.ttf);
+
+}
+
+@font-face {
+    font-family: wakandaforever;
+    src: url(../Font/WakandaForever-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: cantarell;
+    src: url(../Font/Cantarell/Cantarell-Bold.ttf);
+
+}
+
+
+
+
+/* Les couleurs */
+:root
+{
+    --white-color: #FFFFFF;
+    --grandiant-pink: #F2CFF2;
+    --grey-color: #9E91B7;
+    --pink-color: #DF99F2;
+    --purple-color: #3D2DA6;
+    --blue-color: #07338C;
+    --dark-blue: #021740;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../ASSETS/Allpages/arrière_plan.png');
+    color: var(--white-color);
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64,
+                    0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Design en haut */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+}
+li
+{
+    padding: 20px;
+    list-style-type: none;
+    color: var(--purple-color);
+}
+
+.nav ul li:hover 
+{
+    text-decoration: underline;
+    color: var(--white-color);
+}
+.marvel
+{
+    margin: 10px;
+}
+
+
+/* Design black panther */
+.blackpanther
+{
+    display: flex;
+    margin-top: 40px;
+}
+img.panther
+{
+    width: 120%;
+    height: 100%;
+}
+.description
+{
+    width: 80%;
+    margin-top: 15%;
+
+}
+.
+{
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+}
+.suite:hover
+{
+    text-decoration: underline;
+}
+
+/* Design personnages */
+.personnages
+{
+    display: flex;
+    justify-content: space-between;
+    height: 341px;
+    flex-wrap: nowrap;
+    background-color: var(--blue-color);
+    margin-bottom: 15%;
+    text-align: justify;
+}
+
+/* Design naissance prince */
+.naissanceprince
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apropos
+{
+    margin: 50px;
+    text-align: justify;
+    padding-left: 20px;
+}
+.identite
+{
+    background-color: var(--white-color);
+    border-radius: 20px;
+    color: var(--dark-blue);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.btn
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--white-color);
+}
+input[type="radio"] 
+{
+    opacity: 0;
+}
+.btn label
+{
+    cursor: pointer;
+    border-radius: 5px ;
+    background-color: var(--purple-color);
+    padding: 10px;
+    font-size: 12px;
+}
+.nom
+{
+    text-align: center;
+    font-family: 'Cantarell';
+}
+.info
+{
+    padding-left: 70px;
+}
+.img2
+{
+    margin-top: 110px;
+}
+/* Design contact */
+#contact
+{
+    background-image: url('../Illustrations+Logo/Accueil/Pantherhome7.png');
+    height: 900px;
+    padding: 10px;
+    font-family: 'Cantarell';
+}
+.idee
+{
+    background-color: #cfcccc90 ;
+    color: var(--dark-blue);
+    border-radius: 150px;
+    text-align: center;
+    margin-top: 20%;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.information
+{
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
+    height: 56px;
+    weight:520px;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.message
+{
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
+    height: 150px;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.envoie
+{
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
+    height: 50px;
+    margin: 20px;
+    background-color: var(--white-color);
+    color: var(--purple-color);
+}
+.envoie:hover
+{
+    box-shadow: 0 0 20px #021740;
+}
+
+/* Design footer */
+footer
+{
+    background-image: url(../Illustrations+Logo/Allpages/back_footer.png);
+    margin-top: 140px;
+    Background: linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
+}
+.disposition
+{
+    display: flex;
+    justify-content: space-between;
+}
+.img1
+{
+    height: 60%;
+    background-image: url(../Illustrations+Logo/Allpages/footer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logofooter
+{
+    margin-top: 15%;
+}
+.ulfooter
+{
+    display: grid;
+}
+.pages
+{
+    margin-top: 15%;
+    width: 50%;
+}
+.retrouve
+{
+    margin-top: 15%;
+}
+.social
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.enbas
+{
+    display: flex;
+}
+.hfooter
+{
+    color: var(--white-color);
+    font-family: 'Cantarell';
+    font-size: 22px;
+    letter-spacing: 28%;
+}
+
+/* Les polices */
+h1
+{
+    font-family: 'Panthera';
+    font-size: 68px;
+    color: var(--grey-color);}
+h2
+{
+    font-family: 'BEYNO';
+    font-size: 42px;
+    color: var(--grey-color);
+}
+
+h3
+{
+    font-family: 'BEYNO';
+    font-size: 43px;
+    color: var(--grey-color);
+}
+
+p
+{
+    font-family: 'Cantarell';
+    font-size: 24px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+/* CSS du page Wakanda */
+.classwakanda
+{
+    background-image: url(../Illustrations+Logo/Wakanda/Pantherwakanda1.png);
+    height: 1500px;
+    background-repeat: no-repeat;
+        background-position: top center;
+            background-size: cover;
+}
+.classorigines
+{
+    display: flex;
+    background-image: url(../Illustrations+Logo/Wakanda/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 40px;
+    text-align: justify;
+}
+.forever
+{
+    margin-top: 300px;
+    float: left;
+    padding-right: 450px;
+}
+.title
+{
+    font-family: 'BEYNO';
+    font-size: 40px;
+    color: var(--grey-color);
+}
+.titles
+{
+    font-family: 'wakandaforever';
+    margin-top: 10px;
+    font-size: 28px;
+}
+.liens
+{
+    background-color: var(--purple-color);
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Page d'Enigme */
+.imgdora
+{
+    height: 1500px;
+   
+}
+.doramilaje
+{
+    display: flex;
+    justify-content: space-between;
+}
+.doramilajeright
+{
+    display: grid;
+    margin-top: 50px;
+}
+.doramilajedescription
+{
+    background-image: url(../Illustrations+Logo/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.doramilaheright h2
+{
+    font-family: 'BEYNO';
+    font-size: 182px;
+    color: var(--pink-color);
+}
+.doradescription p
+{
+    padding: 120px;
+}
+.mots p
+{
+    font-family: 'wakandaforever';
+    font-size: 40px;
+    margin-top: 50px;
+    color: var(--pink-color);
+    
+}
+.dora-citation p span
+{
+    font-family: 'Wakanda Forever';
+
+}
+.doracitation
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.reponse
+{
+    border-radius: 20px;
+    border: 2px solid var(--pink-color);
+    padding: 10px;
+    margin: 20px;
+}
+.envoyer
+{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    font-size: 10px;
+    background-color: var(--grandiant-pink);
+}
+.valide:hover
+{
+    box-shadow: 0 0 20px #F2CEF2;
+}
+
+/* les barres avec icone */
+.scroll
+{
+    display: grid;
+}
+
+.scroll1
+{
+    position: fixed;
+    border-left: 3px solid var(--grey-color);
+    left: 50px;
+    height: 30%;
+    
+}
+.scrol
+{
+    margin-top: 200px;
+    display: grid;
+    margin-right: 30px;
+
+}
